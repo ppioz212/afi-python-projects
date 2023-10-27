@@ -1,0 +1,11 @@
+binder
+XLOOKUP(A7,Standard!$A$8:$A$12,Standard!$B$8:$B$12,0,0,1)
+
+limestone
+Standard!$G$2-SUM(D3:D7)
+
+carton/blend =$R$11/(Standard!$B$2*Standard!$C$2)
+
+commercial cartons=$Q$13*Standard!$E$2
+wax =0.001767*Standard!$C$2*$Q$13
+pallet =$Q$13/Standard!$D$2
